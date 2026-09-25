@@ -18,7 +18,6 @@
 |---|---|---|
 | `SnailAddin_Setup_1.0.0.0.exe` | ~25 MB | Windows installer (64-bit) |
 
-Also available at: **https://snaddin.com/download**
 
 ---
 
