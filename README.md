@@ -3,8 +3,8 @@
 > A powerful export toolkit for SolidWorks.  
 > One click to export your parts, assemblies, and drawings.
 
-[![Latest Release](https://img.shields.io/github/v/release/YOUR_USERNAME/SnailAddin?style=flat-square)](https://github.com/YOUR_USERNAME/SnailAddin/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/YOUR_USERNAME/SnailAddin/total?style=flat-square)](https://github.com/YOUR_USERNAME/SnailAddin/releases)
+[![Latest Release](https://img.shields.io/github/v/release/SnAddin/SnailAddin_SolidWorks?style=flat-square)](https://github.com/SnAddin/SnailAddin_SolidWorks/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/SnAddin/SnailAddin_SolidWorks/total?style=flat-square)](https://github.com/SnAddin/SnailAddin_SolidWorks/releases)
 [![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11%20x64-blue?style=flat-square)]()
 [![SolidWorks](https://img.shields.io/badge/SolidWorks-2020%2B-red?style=flat-square)]()
 
@@ -12,7 +12,7 @@
 
 ## 📥 Download
 
-**Latest version**: [v1.0.0.0](https://github.com/YOUR_USERNAME/SnailAddin/releases/latest)
+**Latest version**: [v1.0.0.0](https://github.com/SnAddin/SnailAddin_SolidWorks/releases/latest)
 
 | File | Size | Description |
 |---|---|---|
@@ -45,14 +45,14 @@
 
 ## 🚀 Installation
 
-1. **Download** the latest `SnailAddin_Setup_x.x.x.x.exe` from the [Releases](https://github.com/YOUR_USERNAME/SnailAddin/releases/latest) page.
+1. **Download** the latest `SnailAddin_Setup_x.x.x.x.exe` from the [Releases](https://github.com/SnAddin/SnailAddin_SolidWorks/releases/latest) page.
 2. **Close SolidWorks** — all SolidWorks windows must be closed before installation.
 3. **Run the installer** — double-click the `.exe` and follow the wizard.
    - If Windows shows a UAC prompt, click **Yes**.
    - If SmartScreen warns about an unknown publisher, click **More info** → **Run anyway**.
 4. **Launch SolidWorks** — look for the **Snail Addin** tab in the CommandManager.
 
-> See the full [Installation Guide](https://snaddin.com/docs/installation) for detailed steps and screenshots.
+> See the full [Installation Guide](https://snaddin.com/en/installation-en) for detailed steps and screenshots.
 
 ---
 
@@ -86,7 +86,7 @@ Your license is bound to **1 device**. To move it to another computer, click **D
 | License validity | Free forever | 30 days |
 | Price | **$0** | **$4.9** |
 
-**Get Pro**: https://snaddin.com/buy
+**Get Pro**: https://snaddin.com/en/buyen
 
 ---
 
@@ -173,16 +173,14 @@ Delete this folder manually.
 ## 📞 Support
 
 - 🌐 **Website**: https://snaddin.com
-- 📖 **Documentation**: https://snaddin.com/docs
-- 📧 **Email**: support@snaddin.com
-- 🐛 **Bug reports**: [Open an issue](https://github.com/YOUR_USERNAME/SnailAddin/issues)
-- 💡 **Feature requests**: [Open an issue](https://github.com/YOUR_USERNAME/SnailAddin/issues)
+- 📧 **Email**: snaddin@qq.com
+- 🐛 **Bug reports**: [Open an issue](https://github.com/SnAddin/SnailAddin_SolidWorks/issues)
+- 💡 **Feature requests**: [Open an issue](https://github.com/SnAddin/SnailAddin_SolidWorks/issues)
 
 When reporting a bug, please include:
 - SolidWorks version (Help → About SolidWorks)
 - Windows version
 - A screenshot of the error
-- The log file at `%LOCALAPPDATA%\SnailAddin\SnailAddin_Log.txt`
 
 ---
 
