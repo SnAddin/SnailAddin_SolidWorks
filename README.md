@@ -6,7 +6,7 @@
 [![Latest Release](https://img.shields.io/github/v/release/SnAddin/SnailAddin_SolidWorks?style=flat-square)](https://github.com/SnAddin/SnailAddin_SolidWorks/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/SnAddin/SnailAddin_SolidWorks/total?style=flat-square)](https://github.com/SnAddin/SnailAddin_SolidWorks/releases)
 [![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11%20x64-blue?style=flat-square)]()
-[![SolidWorks](https://img.shields.io/badge/SolidWorks-2020%2B-red?style=flat-square)]()
+[![SolidWorks](https://img.shields.io/badge/SolidWorks-2020%2B-green?style=flat-square)]()
 
 ---
 
