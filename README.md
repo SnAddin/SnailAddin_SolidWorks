@@ -12,201 +12,91 @@
 
 ## 📥 Download
 
-**Latest version**: [v1.0.0.0](https://github.com/SnAddin/SnailAddin_SolidWorks/releases/latest)
+**Latest version**: [v1.1.0.0](https://github.com/SnAddin/SnailAddin_SolidWorks/releases/download/V1.1.0.0/SnailAddin_Setup_1.1.0.0.zip)
 
 | File | Size | Description |
 |---|---|---|
-| `SnailAddin_Setup_1.0.0.0.exe` | ~25 MB | Windows installer (64-bit) |
+| `SnailAddin_Setup_1.1.0.0.zip` | ~25 MB | Windows installer (64-bit) |
 
+### V1.1 Release Notes
+We are pleased to release V1.1 of SnailAddin for SolidWorks. This update focuses on enhancing batch custom property management, BOM export, and BOM check workflows.
 
----
+### Feature Highlights
+### Import Custom Property Management
+Define Properties: Define multiple property names and values in one go.
 
-## ✨ Key Features
+Batch Import: Import properties from Excel / text files into multiple parts with one click.
 
-- **One-click export** to STP, IGS, X_T, PDF, DWG, and DXF
-- **Batch export** from Excel/TXT lists, or scan open assemblies and folders
-- **Smart duplicate handling** — auto adds suffixes when names conflict
-- **Export report** — per-file status and timestamps after each batch
-- **Seamless integration** — runs inside a dedicated SolidWorks tab
+Type Support: Supports expression, date, text, and other property types.
 
----
+### BOM Export
+One-Click Export: Export assembly BOM to CSV in a single click.
 
-## 💻 System Requirements
+Extended Columns: Extract custom properties as additional columns.
 
-| Item | Requirement |
-|---|---|
-| Operating System | Windows 10 / 11 (64-bit) |
-| SolidWorks | 2020 or later (64-bit) |
-| .NET Framework | 4.8 or later |
-| Disk Space | ~50 MB |
-| Internet | Required for license activation |
+Batch Processing: Export multiple assemblies simultaneously.
 
----
+### BOM Check
+One-Click Comparison: Paste BOM → click Check → instantly see differences.
 
-## 🚀 Installation
+Four Difference Types: Clearly identifies extra, missing, quantity mismatch, and duplicate entries.
 
-1. **Download** the latest `SnailAddin_Setup_x.x.x.x.exe` from the [Releases](https://github.com/SnAddin/SnailAddin_SolidWorks/releases/latest) page.
-2. **Close SolidWorks** — all SolidWorks windows must be closed before installation.
-3. **Run the installer** — double-click the `.exe` and follow the wizard.
-   - If Windows shows a UAC prompt, click **Yes**.
-   - If SmartScreen warns about an unknown publisher, click **More info** → **Run anyway**.
-4. **Launch SolidWorks** — look for the **Snail Addin** tab in the CommandManager.
+Non-Modal Window: The check window floats on top of SolidWorks, so you can review the model while checking.
 
-> See the full [Installation Guide](https://snaddin.com/en/installation-en) for detailed steps and screenshots.
+Multi-Level / Single-Level Modes: Supports both full hierarchical BOM and flattened single-level BOM comparison.
 
----
+Color Coding: "Same" in green, "Not Same" in red, new rows highlighted in light yellow — easy to spot at a glance.
 
-## 🔑 License Activation
+One-Click Export: Export CSV for ERP, or Excel with color formatting for manual review.
 
-### Free Edition
-Works out of the box, no activation needed.  
-Batch export limit: **27 files per task**.
+### Installation
+Close SolidWorks.
 
-### Pro Edition
-After purchase, you will receive a license key by email.
+Run the installer SnailAddin-Setup-v1.1.exe.
 
-1. Open SolidWorks → **Snail Addin** tab
-2. Click **Like me**
-3. Paste your license key (`SNL1-P-XXXX-XXXX-XXXX-XXXX`)
-4. Click **Activate**
+Follow the on-screen instructions.
 
-Your license is bound to **1 device**. To move it to another computer, click **Deactivate** first.
+Restart SolidWorks.
 
----
+If you have a previous version installed, simply run the new installer to upgrade.
 
-## 🆚 Free vs Pro
+### V1.1 更新日志
+我们很高兴发布 SnailAddin for SolidWorks V1.1。本次更新专注于增强批量自定义属性管理、BOM 导出和 BOM 校对工作流。
 
-| Feature | Free | Pro |
-|---|:---:|:---:|
-| Export STP / IGS / X_T / PDF / DWG / DXF | ✅ | ✅ |
-| Batch export limit per task | 27 files | 500 files |
-| Scan assembly & drawing folders | ✅ | ✅ |
-| Export report | ✅ | ✅ |
-| Devices per license | — | 1 device |
-| License validity | Free forever | 30 days |
-| Price | **$0** | **$4.9** |
+### 功能亮点
+### 批量自定义属性管理
+定义属性：一次定义多个属性名和值。
 
-**Get Pro**: https://snaddin.com/en/buyen
+批量导入：从 Excel / 文本文件一键导入到多个零件。
 
----
+类型支持：支持表达式、日期、文本等多种属性类型。
 
-## ❓ FAQ
+### BOM 导出
+一键导出：一键导出装配体 BOM 表为 CSV。
 
-<details>
-<summary><b>The Snail Addin tab doesn't appear in SolidWorks</b></summary>
+扩展列：从自定义属性提取额外列。
 
-**Cause**: The plugin was not registered, or SolidWorks was running during installation.
+批量处理：支持同时导出多个装配体。
 
-**Fix**:
-1. Close SolidWorks completely
-2. Run the installer again
-3. Open SolidWorks
+### BOM 校对
+一键对比：粘贴 BOM → 点击校对 → 立即看到差异。
 
-If it still doesn't appear, run the following in an **Administrator Command Prompt**:
+四种差异一目了然：多出的、缺失的、数量不符的、重复输入的。
 
-"C:\Windows\Microsoft.NET\Framework64\v4.0.30319\regasm.exe" /codebase "C:\Program Files\SnailAddin\MainAddin.dll"
+非模态窗口：校对窗口悬浮在 SolidWorks 之上，边看模型边核对。
 
-Then restart SolidWorks.
+多层 / 单层双模式：既支持完整层层 BOM 结构对比，也支持扁平合并的单层 BOM 对比。
 
-</details>
+颜色标记：Same 绿字、Not Same 红字、新增行浅黄底，一眼分清。
 
-<details>
-<summary><b>Installation fails with ".NET Framework 4.8 required"</b></summary>
+一键导出：CSV 给 ERP，Excel 带颜色给人工审阅。
 
-Install .NET Framework 4.8 from Microsoft:  
-https://dotnet.microsoft.com/download/dotnet-framework/net48
+### 安装方式
+关闭 SolidWorks。
 
-Restart your computer, then run the installer again.
+运行安装包 SnailAddin-Setup-v1.1.exe。
 
-</details>
+按提示完成安装。
 
-<details>
-<summary><b>Activation fails with "Network error"</b></summary>
+重启 SolidWorks。
 
-1. Check your internet connection
-2. Make sure `snaddin.com` is not blocked by a firewall or proxy
-3. Try again
-
-If the problem persists, contact support.
-
-</details>
-
-<details>
-<summary><b>Activation fails with "Machine code mismatch"</b></summary>
-
-The license is already bound to a different machine.
-
-1. On the original machine, click **Deactivate** in the "Like me" window
-2. Then activate on the new machine
-
-If the original machine is unavailable, contact support.
-
-</details>
-
-<details>
-<summary><b>"Unknown publisher" warning during installation</b></summary>
-
-The installer is not code-signed yet.  
-Click **More info** → **Run anyway**. This is safe.
-
-</details>
-
----
-
-## 🗑️ Uninstallation
-
-1. Close SolidWorks
-2. Open **Settings** → **Apps** → **Installed apps** (Windows 11)  
-   or **Control Panel** → **Programs and Features** (Windows 10)
-3. Find **Snail Addin** → click **Uninstall**
-
-**Note**: Your license file (`%LOCALAPPDATA%\SnailAddin\license.dat`) is **not** removed on uninstall. Reinstalling will automatically restore your license.
-
-To completely remove all traces:
-
-%LOCALAPPDATA%\SnailAddin
-
-Delete this folder manually.
-
----
-
-## 📞 Support
-
-- 🌐 **Website**: https://snaddin.com
-- 📧 **Email**: snaddin@qq.com
-- 🐛 **Bug reports**: [Open an issue](https://github.com/SnAddin/SnailAddin_SolidWorks/issues)
-- 💡 **Feature requests**: [Open an issue](https://github.com/SnAddin/SnailAddin_SolidWorks/issues)
-
-When reporting a bug, please include:
-- SolidWorks version (Help → About SolidWorks)
-- Windows version
-- A screenshot of the error
-
----
-
-## 📝 Version History
-
-### v1.0.0.0 — 2026-09-25
-- 🎉 Initial release
-- Support for exporting STP, IGS, X_T, PDF, DWG, DXF
-- Batch export with scan and report
-- 30-day Pro license with 1-device binding
-
----
-
-## 📄 License
-
-**Snail Addin** is commercial software.  
-Copyright © 2026 Snaddin. All rights reserved.
-
-This repository contains **only release binaries and documentation**.  
-The source code is not publicly available.
-
-See the [LICENSE](LICENSE) file for details.
-
----
-
-## ⚠️ Disclaimer
-
-This software is provided "as is", without warranty of any kind.  
-Always back up your SolidWorks files before batch operations.
